@@ -1,0 +1,71 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Adicione estilos personalizados aqui */
+/* Estilos personalizados para a página de login */
+html, body {
+  height: 100%;
+  overflow: hidden;
+  touch-action: none;
+  position: fixed;
+  width: 100%;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  background-image: url('../../assets/Imagens/nutri.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Restante do seu CSS */
+
+
+.login-form {
+  width: 400px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #8c4bff;
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8c4bff;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #7538d7;
+}
