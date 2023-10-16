@@ -7,8 +7,8 @@ import { LoginService } from '../service/login.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-  email: string = ''; // Definindo a propriedade 'email'
-  password: string = ''; // Definindo a propriedade 'password'
+  email: string = '';
+  password: string = '';
 
   constructor(
     private loginService: LoginService
